@@ -1,3 +1,6 @@
+# after modifying the notebooks execute all with 
+# jupyter nbconvert --execute --inplace $(find . -type f -name "*.ipynb" -printf '%P\n' | tr '\n' ' ')
+
 import os
 import nbformat
 
