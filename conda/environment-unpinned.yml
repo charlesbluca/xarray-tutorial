@@ -1,8 +1,11 @@
 name: xarray-tutorial
 channels:
+  - rapidsai
   - conda-forge
+  - nvidia
 dependencies:
-  - python=3.11
+  - cudf=23.10.01
+  - python=3.10
   # for building website:
   - jupyter-book
   - pre-commit
